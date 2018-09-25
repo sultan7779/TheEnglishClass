@@ -1,0 +1,94 @@
+                /*heading*/
+#headborder{
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+    color: brown;
+    background-color: lightgray;
+}
+
+                /*footer*/
+#footer{
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    color: brown;
+    background-color: lightgray;
+}
+
+                /*navigation bar style*/
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: brown;
+    text-decoration: none;
+}
+
+.active {
+    background-color: darkgray;
+}
+.navbar1{
+    border-radius: 25px;
+    background: ;
+    padding: 10px;
+    width: ;
+    height: ;
+}
+.navbar2{
+    border-radius: 15px;
+    background: ;
+    padding: 10px;
+    width: ;
+    height: ;
+}
+li a:hover{
+    background-color: gainsboro;
+}
+li a{
+    border-radius: 15px;
+}
+                /*divsions style*/
+.p{
+    padding: 10px;
+}
+.font{
+    font-family: cursive;
+}
+                /*dropdown*/
+li .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+.dropdown-content a {
+    display: block;
+    text-align: left;
+    padding: 15px 16px;
+    border-radius: 15px;
+}
+
+.dropdown-content a:hover{
+    background-color: gainsboro;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
